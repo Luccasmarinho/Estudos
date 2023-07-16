@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinando</title>
+    <style>
+        body {
+           font-family: arial; 
+        }
+        
+        a {
+            text-decoration: none;
+            color: red;
+            
+        }
+
+              
+        a:hover {    
+            color: blue;
+            text-decoration: underline;
+
+        }
+        
+        a:active {
+            color: aqua;
+        }
+
+        a::before {
+            content: ' <3 ';
+        } 
+
+        a::after {
+            content: ' <3';
+        }
+
+        div {
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Músicas legais para ouvir</h1>
+    <div>
+        Clique em qualquer uma
+        <p>Muitas músicas boas</p>
+    </div>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=cP_OPh0K3WI" target="_blank">Raphaela Santos</a></li>
+        <li><a href="https://www.youtube.com/watch?v=K_9tX4eHztY" target="_blank">The Weeknd ft Future</a></li>
+        <li><a href="https://www.youtube.com/watch?v=ZU7efeT0TpY" target="_blank" class="travis">JACKBOYS - What To Do? (Lyrics) Feat. Don Toliver</a></li>
+        
+    </ul>
+</body>
+</html>
